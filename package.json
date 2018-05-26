@@ -1,0 +1,42 @@
+{
+	"name": "goblindb-console-app",
+	"version": "0.0.1",
+	"description": "A console command line app for Goblin DB",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"readme": "README.md",
+	"keywords": [
+		"database",
+		"json",
+		"GoblinDB",
+		"Fear the Goblin",
+		"Goblin-client",
+		"Goblin-cli"
+	],
+	"author": {
+		"name": "Sebastián Cabanas",
+		"url": "https://github.com/Sediug"
+	},
+	"license": "GPL-3.0",
+	"dependencies": {
+		"commander": "^2.15.1",
+		"inquirer-command-prompt": "0.0.8"
+	},
+	"devDependencies": {
+		"chai": "3.5.0",
+		"chai-fs": "1.0.0",
+		"gulp": "3.9.1",
+		"gulp-debug": "3.0.0",
+		"gulp-eslint": "3.0.1",
+		"gulp-istanbul": "1.1.1",
+		"gulp-jsdoc3": "1.0.1",
+		"gulp-mocha": "3.0.1",
+		"gulp-util": "3.0.8",
+		"mocha": "3.1.2",
+		"mocha-sinon": "1.1.6",
+		"sinon": "1.17.7"
+	}
+}
